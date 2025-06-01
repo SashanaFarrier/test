@@ -1,12 +1,21 @@
+# DataShare Web App
 
-DeployMate is a lightweight web dashboard designed to help developers manage and monitor GitHub repositories, deployments, and CI/CD workflows in real-time. Built with ASP.NET Core and integrated with GitHub's API, DeployMate provides a clean, user-friendly interface for viewing repository status, deployment history, active GitHub Actions workflows, and pending pull requests — all in one place. The app is ideal for teams who want visibility into their dev pipeline without needing to dig through GitHub manually. It supports GitHub OAuth and environment-based token authentication for easy and secure access.
+## Description
+DataShare is a secure and user-friendly web application that facilitates seamless data sharing between users and teams. Designed to streamline collaboration, the platform offers efficient data management and instant sharing capabilities, ensuring that your data is accessible whenever you need it.
 
+## Build With
+- HTML5
+- CSS3
+- JavaScript
+- Node.js (optional, if backend is included)
+- Express.js (optional, if backend is included)
 
-- View repository status and details
-- Monitor deployment history
-- Track active GitHub Actions workflows
-- See pending pull requests
-- Secure authentication via GitHub OAuth and environment tokens
+## Features
+- Secure user authentication
+- Easy upload and data management
+- Instant sharing with customizable permissions
+- Responsive design for access on any device
+- Real-time notifications for shared data updates
 
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
