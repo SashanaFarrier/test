@@ -1,65 +1,55 @@
-# TaskHub Web Application
+# StayFit Mobile App
 
 ## Description
-TaskHub is a modern, responsive web application designed to help individuals and teams organize, prioritize, and track their tasks seamlessly. With an intuitive interface and real-time updates, TaskHub empowers users to boost productivity and stay on top of their deadlines in a collaborative environment.
-
-## Build With
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-- Bootstrap
+StayFit is a comprehensive health and fitness mobile application designed to help users maintain an active lifestyle. With personalized workout plans, nutrition tracking, and progress monitoring, StayFit empowers users to achieve their fitness goals conveniently from their smartphones.
 
 ## Features
-- User authentication and registration
-- Create, edit, and delete tasks
-- Drag and drop task prioritization
-- Real-time updates with WebSocket integration
-- Responsive design for all devices
-- Notifications and reminders
+- Personalized workout routines based on user preferences and fitness levels
+- Nutrition and calorie tracking to promote healthy eating habits
+- Progress dashboard to monitor changes over time
+- Workout tutorials with videos and descriptions
+- Reminder notifications for workouts and meals
+- Integration with wearable devices for real-time data sync
 
-## Installation
+## Build With
+- React Native
+- JavaScript
+- Expo SDK
+
+## Usage
+To get started with StayFit, follow these steps:
 
 ### Prerequisites
-- Node.js (version 14.0 or higher)
-- MongoDB installed and running
+- Node.js (version 14 or above)
+- npm or yarn package manager
+- Expo CLI
 
 ### Steps
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/taskhub-webapp.git
-```
-
+   
+   ```bash
+   git clone https://github.com/yourusername/stayfit-mobile.git
+   ```
 2. Navigate into the project directory:
-```bash
-cd taskhub-webapp
-```
-
-3. Install backend dependencies:
-```bash
-cd server
-npm install
-```
-
-4. Install frontend dependencies:
-```bash
-cd ../client
-npm install
-```
-
-5. Configure environment variables for both server and client as needed (e.g., database connection strings, API keys).
-
-6. Start the development server:
-- In the server directory:
-```bash
-npm run start
-```
-- In the client directory:
-```bash
-npm run start
-```
-
-7. Access the application at `http://localhost:3000` in your browser.
+   
+   ```bash
+   cd stayfit-mobile
+   ```
+3. Install dependencies:
+   
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
+4. Start the development server:
+   
+   ```bash
+   expo start
+   ```
+5. Scan the QR code with the Expo Go app on your mobile device to run the app.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
