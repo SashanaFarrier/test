@@ -1,14 +1,24 @@
-# Taxi App 🚕
+# TaskMaster ✨
 
 ## Description
-A user-friendly application that allows users to easily book and get a taxi service quickly and efficiently. Designed to streamline the process of hailing a taxi, ensuring a smooth and reliable transportation experience.
+A web-based task management application built using React, Node.js, and MongoDB. 🚀  
+It allows users to create, update, and organize tasks with deadlines and categories. 📝  
+The app includes user authentication, drag-and-drop functionality, and real-time updates using WebSockets. 🌐
+
+## Build With
+- React.js (Frontend)
+- Node.js (Backend)
+- MongoDB (Database)
+- WebSockets (Real-time updates)
+- CSS3 & HTML5
 
 ## Features
-- Book a taxi with just a few taps
-- View available taxis nearby
-- Track your taxi in real-time
-- Estimated fare calculation
-- Safe and secure payment options
+- User authentication & registration 🔐  
+- Create, update, and delete tasks 📝  
+- Organize tasks by categories and deadlines 📅  
+- Drag-and-drop task reordering 🔄  
+- Real-time updates with WebSockets 🌟  
+- Responsive design for mobile and desktop 📱🖥️  
 
----  
-**Note:** Further details such as build tools, installation steps, or usage instructions can be added once available.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
