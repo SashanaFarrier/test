@@ -1,50 +1,35 @@
-# Awesome WebApp 🚀
+# StellarDataAnalysis 🚀
 
-## Description  
-Awesome WebApp is a modern, responsive web application designed to enhance productivity and streamline daily tasks. Built with intuitive UI components and robust functionalities, it provides users with an seamless experience across all devices.
+## Description
+StellarDataAnalysis is a powerful Python package designed to simplify and accelerate the process of analyzing astronomical data. Whether you're working with star catalogs, spectral data, or celestial object metadata, StellarDataAnalysis provides intuitive tools and functions to streamline your research workflow.
 
-## Build With  
-- React.js 🚥  
-- Node.js 🌳  
-- Express.js 🚂  
-- MongoDB 🍃  
-- Bootstrap 🎨
+## Build With
+- Python 3.9+
+- NumPy
+- Pandas
+- Matplotlib
+- Astropy
 
-## Features  
-- User authentication and profile management 🔐  
-- Real-time notifications 🔔  
-- Drag-and-drop task organization 🗂️  
-- Data visualization dashboards 📊  
-- Mobile-responsive design 📱  
+## Features
+- Load and preprocess large astronomical datasets seamlessly
+- Perform statistical analysis and data filtering
+- Generate insightful visualizations of celestial data
+- Support for common astronomical file formats like FITS and CSV
+- Easy integration with existing scientific computing pipelines
 
-## Installation
+## Usage
+```python
+import stellardata as sda
 
-### Prerequisites  
-- Node.js (version 14 or above)  
-- MongoDB installed and running  
-- npm (Node package manager)  
+# Load a FITS file
+data = sda.load_fits('star_spectra.fits')
 
-### Steps  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/awesome-webapp.git
-   ```  
-2. Navigate into the project directory:  
-   ```bash
-   cd awesome-webapp
-   ```  
-3. Install dependencies for both client and server:  
-   ```bash
-   npm install
-   cd client
-   npm install
-   ```  
-4. Set up environment variables (create a `.env` file in the root and fill in necessary configurations).  
-5. Start the development server:  
-   ```bash
-   npm run dev
-   ```  
-6. Access the app at `http://localhost:3000` in your browser.  
+# Filter stars with magnitude brighter than 10
+bright_stars = sda.filter_by_magnitude(data, max_magnitude=10)
 
-## License  
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+# Plot the spectral data
+sda.plot_spectrum(bright_stars['spectrum'])
+```
+
+## License
+This project is licensed under the MIT License. 
