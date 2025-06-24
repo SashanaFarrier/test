@@ -1,4 +1,4 @@
-# Web App Name 🚀
+# Amazing App 🚀
 
 ## Description  
 A modern, responsive web application designed to provide users with an intuitive and seamless experience. Built with the latest web technologies to ensure performance, scalability, and a sleek user interface.
