@@ -1,25 +1,20 @@
-# Weather App ☀️🌦️🌧️
+# Calculator App 🚀
 
 ## Description  
-A sleek and user-friendly weather application that provides real-time weather updates based on your location or a searched city. Stay informed about current conditions, forecasts, and more with an intuitive interface designed for quick access and clarity. 
+A simple and efficient calculator application built with Node.js, Express, and MongoDB. It allows users to perform basic arithmetic operations and stores calculation history for easy reference. The app offers a clean API and a user-friendly interface for seamless calculations and data persistence.  
 
-## Build With  
-- HTML, CSS, JavaScript  
-- OpenWeatherMap API  
+## Build With 🛠️  
+- Node.js  
+- Express.js  
+- MongoDB  
 
-## Features  
-- Display current weather conditions for your location or a searched city  
-- Show temperature, humidity, wind speed, and weather description  
-- 7-day weather forecast  
-- Responsive design for mobile and desktop devices  
-- Search functionality for any city worldwide  
-
-## Usage  
-1. Clone the repository or download the project files.  
-2. Obtain an API key from [OpenWeatherMap](https://openweathermap.org/api).  
-3. Replace the placeholder API key in the code with your own API key.  
-4. Open `index.html` in your preferred web browser to use the app.  
-5. Allow location access for automatic weather updates based on your current location, or use the search bar to look up different cities.  
+## Features ✨  
+- Perform basic arithmetic operations: addition, subtraction, multiplication, division  
+- Store and retrieve calculation history from MongoDB  
+- User-friendly API endpoints for calculations and history management  
+- Data persistence for previous calculations  
+- Clean and modular code structure  
 
 ## License ⚖️  
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License.  
+Feel free to use, modify, and distribute!
