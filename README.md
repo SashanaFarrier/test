@@ -1,48 +1,57 @@
-# Awesome Web App
+# EcoTravel 🌿✈️
 
-## Description  
-A modern, responsive web application designed to deliver an engaging user experience. Built with the latest web technologies to ensure performance, accessibility, and scalability. Whether you're looking to manage your tasks, showcase your portfolio, or create an online store, this web app provides the foundation to bring your ideas to life.
+## Description
+EcoTravel is an innovative travel planning application focused on promoting sustainable tourism. It helps users discover eco-friendly destinations, plan green trips, and connect with environmentally conscious service providers all in one intuitive platform.
 
-## Build With  
-- HTML5  
-- CSS3  
-- JavaScript  
-- React.js  
-- Node.js  
-- Express  
+## Build With
+- React.js
+- Node.js
+- MongoDB
+- Bootstrap
 
-## Features  
-- User authentication and authorization 🔒  
-- Responsive and mobile-friendly design 📱  
-- Real-time updates using WebSockets 🔴  
-- Dynamic data management with RESTful APIs 🌐  
-- Customizable themes and layouts 🎨  
-- Accessible interface adhering to WCAG guidelines ♿️  
+## Features
+- Explore eco-friendly travel destinations 🏞️
+- Personalized trip planning based on sustainability preferences 🌱
+- Book eco-certified hotels and transportation 🚗🏨
+- User reviews and ratings for sustainability practices 📝
+- Interactive map view of destinations 🗺️
+- User account management and trip history 👤
 
-## Usage  
-To run this web app locally, follow these steps:
+## Usage
+To run EcoTravel locally, follow these steps:
 
+### Prerequisites
+- Node.js (version 14 or higher)
+- MongoDB installed and running
+- npm package manager
+
+### Steps
 1. Clone the repository  
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-```  
-
+git clone https://github.com/yourusername/ecotravel.git
+```
 2. Navigate into the project directory  
 ```bash
-cd yourproject
-```  
-
-3. Install dependencies for the client and server  
+cd ecotravel
+```
+3. Install dependencies for the server and client  
 ```bash
 npm install
-```  
-
-4. Start the development server  
+```
+4. Set up environment variables for database connection and API keys (create a `.env` file)  
 ```bash
-npm run dev
-```  
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+```
+5. Run the backend server  
+```bash
+npm run server
+```
+6. In a new terminal, start the frontend React app  
+```bash
+npm run client
+```
+7. Open your browser and go to `http://localhost:3000` to view the application.
 
-Open your browser and go to `http://localhost:3000` to see the app in action.  
-
-## License  
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## License
+This project is licensed under the MIT License. 
