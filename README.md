@@ -1,53 +1,20 @@
-# NextGen App 🚀
+# WeatherApp 🌤️
 
 ## Description
-NextGen App is a cutting-edge application designed to revolutionize the way users interact with digital content. Leveraging the latest advancements in AI and cloud technology, NextGen App offers a seamless, intuitive, and highly customizable experience. Whether you're managing complex workflows or engaging with immersive multimedia, NextGen App is built to elevate productivity and creativity to new heights.
+WeatherApp is a user-friendly web application that provides real-time weather updates for any location worldwide. Built with modern web technologies, it offers accurate forecasts, current conditions, and a visually appealing interface to enhance user experience. Whether you're planning a trip or just curious about the weather, WeatherApp has got you covered! 
 
 ## Build With
 - React.js
 - Node.js
-- Express
-- MongoDB
-- OpenAI API
-- Docker
+- OpenWeatherMap API
 
 ## Features
-- Real-time collaboration and updates 🛠️
-- AI-powered content generation 🤖
-- Customizable dashboards and user settings 🎨
-- Secure authentication and user management 🔒
-- Responsive design for mobile and desktop 📱💻
-- Scalable architecture for enterprise deployment 🌐
-
-## Usage
-To get started with NextGen App, clone the repository and install the dependencies:
-
-```bash
-git clone https://github.com/yourusername/NextGenApp.git
-cd NextGenApp
-
-# Install backend dependencies
-cd backend
-npm install
-
-# Install frontend dependencies
-cd ../frontend
-npm install
-```
-
-Then, set up environment variables as needed, and run the development servers:
-
-```bash
-# Run backend server
-cd ../backend
-npm run dev
-
-# In another terminal, run frontend server
-cd ../frontend
-npm start
-```
-
-Open your browser and navigate to `http://localhost:3000` to access the app.
+- 🌡️ Display current temperature, humidity, wind speed, and weather conditions
+- 🔮 7-day weather forecast
+- 🌐 Search weather by city name or coordinates
+- 🌙 Light and dark mode toggle
+- 📱 Responsive design for desktops and mobile devices
+- 🛠️ Error handling for invalid locations
 
 ## License
-This project is licensed under the MIT License. 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
