@@ -1,20 +1,21 @@
-# TaskMaster Pro 🚀
+# Farmer's Web App 🚜🌱
 
-## Description  
-TaskMaster Pro is an intuitive and powerful task management application designed to help teams organize, prioritize, and track their work effortlessly. Whether you're managing personal projects or collaborative team efforts, TaskMaster Pro streamlines your workflow with a clean interface and smart features.
+## Description
+Farmer's Web App is a comprehensive platform designed to connect farmers, buyers, and agronomists. It streamlines crop management, market listing, and resource sharing, empowering the agricultural community with easy access to vital tools and information.
 
-## Build With  
-- React.js  
-- Node.js  
-- Express.js  
-- MongoDB  
+## Build With
+- HTML
+- CSS
+- JavaScript
+- React.js (optional, if applicable)
 
-## Features  
-- Create, edit, and delete tasks  
-- Assign tasks to team members  
-- Set deadlines and priorities  
-- Real-time notifications and updates  
-- Responsive design for mobile and desktop  
+## Features
+- User registration and authentication 🔒
+- Crop listing and marketplace 🥕🧑‍🌾
+- Real-time chat between farmers and buyers 💬
+- Crop management dashboard 📊
+- Resource center with farming tips and weather updates ☀️🌧️
+- Notifications for market price updates and new listings 🔔
 
-## License  
+## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
